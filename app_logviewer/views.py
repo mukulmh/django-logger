@@ -2,6 +2,7 @@ from django.shortcuts import render,redirect
 from django.contrib import messages
 import os
 import re
+from django.core.paginator import Paginator
 # import logging
 
 # logger = logging.getLogger(__name__)
@@ -80,12 +81,18 @@ def dashboard(request):
 def logs(request, file):
     logs=[]
     with open('logs/'+file) as fp:
+        log_no = 0
         for line in fp:
             log_data = {}
             if re.findall(r'DEBUG|INFO|ERROR|WARNING|CRITICAL',line):
                 log_data['log'] = line
                 message = line.split(' ', 4)
                 log_data['message'] = message[4]
+                log_no += 1
+                log_data['log_number'] = log_no
                 logs.append(log_data)
     logs.reverse()
-    return render(request,'logger/logs.html',{'logs':logs})
+    log_paginator = Paginator(logs, 20)
+    page_number = request.GET.get('page')
+    logs_per_page = log_paginator.get_page(page_number)
+    return render(request,'logger/logs.html',{'logs':logs_per_page,'file':file})

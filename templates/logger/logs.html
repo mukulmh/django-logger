@@ -31,14 +31,34 @@
 
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">Logs DataTable</h3>
+                            <div style="float: left;">
+                                <h3 class="card-title">Logs DataTable</h3>
+                            </div>
+                            <div style="float: right;">
+                                <div style="float: left;">
+                                    Page: {{logs.number}} &nbsp;
+                                </div>
+                                <div style="float: right;">
+                                    {% if logs.has_previous %}
+                                    <div style="float: left;"><a
+                                            href="{% url 'logs' file=file %}?page={{logs.previous_page_number}}">Previous
+                                            &nbsp;</a></div>
+                                    {% endif %}
+                                    {% if logs.has_next%}
+                                    <div style="float: right;"><a
+                                            href="{% url 'logs' file=file %}?page={{logs.next_page_number}}">&nbsp;
+                                            Next</a></div>
+                                    {% endif %}
+                                </div>
+                            </div>
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
-                            <table id="example1" class="table table-bordered table-striped">
+                            <table id="example2" class="table table-bordered table-striped">
                                 <thead>
                                     <tr>
-                                        <th>Date</th>
+                                        <th>Log No</th>
+                                        <!-- <th>Date</th> -->
                                         <th>Time</th>
                                         <th>Log Type</th>
                                         <th>Function</th>
@@ -48,17 +68,19 @@
                                 <tbody>
                                     {% for line in logs%}
                                     <tr>
-                                      <td>{{line.log.split.1}}</td>
-                                      <td>{{line.log.split.2}}</td>
-                                      <td>{{line.log.split.0}}</td>
-                                      <td>{{line.log.split.3}}</td>
-                                      <td>{{line.message}}</td>
+                                        <td>{{line.log_number}}</td>
+                                        <!-- <td>{{line.log.split.1}}</td> -->
+                                        <td>{{line.log.split.2}}</td>
+                                        <td>{{line.log.split.0}}</td>
+                                        <td>{{line.log.split.3}}</td>
+                                        <td style="width: 80%;">{{line.message}}</td>
                                     </tr>
                                     {% endfor %}
                                 </tbody>
                                 <tfoot>
                                     <tr>
-                                        <th>Date</th>
+                                        <th>Log No</th>
+                                        <!-- <th>Date</th> -->
                                         <th>Time</th>
                                         <th>Log Type</th>
                                         <th>Function</th>
