@@ -34,27 +34,47 @@
                             <div style="float: left;">
                                 <h3 class="card-title">Logs DataTable</h3>
                             </div>
-                            <div style="float: right;">
-                                <div style="float: left;">
-                                    Page: {{logs.number}} &nbsp;
-                                </div>
-                                <div style="float: right;">
+                            <div style="float: right;" class="row">
+                                <div style="display: inline-block;">
+                                    <div style="display: inline-block;">
+                                        <!-- Filter button -->
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Filter
+                                            </button>
+                                            <div class="dropdown-menu bg-success">
+                                            <a class="dropdown-item bg-primary cat-all" href="#">All</a>
+                                            <a class="dropdown-item bg-gray cat-1" href="#">Debug</a>
+                                            <a class="dropdown-item bg-info cat-2" href="#">Info</a>
+                                            <a class="dropdown-item bg-warning cat-3" href="#">Warning</a>
+                                            <a class="dropdown-item bg-danger cat-4" href="#">Error</a>
+                                            <a class="dropdown-item bg-maroon cat-5" href="#">Critical</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="display: inline-block;">
+                                        <p>Page: {{logs.number}} of {{total_pages}} &nbsp;</p>
+                                    </div>
                                     {% if logs.has_previous %}
-                                    <div style="float: left;"><a
-                                            href="{% url 'logs' file=file %}?page={{logs.previous_page_number}}">Previous
-                                            &nbsp;</a></div>
+                                    <div style="display: inline-block;"><a
+                                            href="{% url 'logs' file=file %}?page={{logs.previous_page_number}}">
+                                            <button class="btn btn-sm btn-success"><i class="fa fa-arrow-left"></i></button>
+                                            &nbsp;</a>
+                                    </div>
                                     {% endif %}
                                     {% if logs.has_next%}
-                                    <div style="float: right;"><a
+                                    <div style="display: inline-block;"><a
                                             href="{% url 'logs' file=file %}?page={{logs.next_page_number}}">&nbsp;
-                                            Next</a></div>
+                                            <button class="btn btn-sm btn-success"><i class="fa fa-arrow-right"></i></button></a>
+                                    </div>
                                     {% endif %}
                                 </div>
                             </div>
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
-                            <table id="example2" class="table table-bordered table-striped">
+                            <table id="example2" class="table table-bordered table-striped"
+                                style="word-wrap: break-word;">
                                 <thead>
                                     <tr>
                                         <th>Log No</th>
@@ -67,13 +87,13 @@
                                 </thead>
                                 <tbody>
                                     {% for line in logs%}
-                                    <tr>
+                                    <tr class="group-{{line.log.split.0}}">
                                         <td>{{line.log_number}}</td>
                                         <!-- <td>{{line.log.split.1}}</td> -->
                                         <td>{{line.log.split.2}}</td>
                                         <td>{{line.log.split.0}}</td>
                                         <td>{{line.log.split.3}}</td>
-                                        <td style="width: 80%;">{{line.message}}</td>
+                                        <td>{{line.message}}</td>
                                     </tr>
                                     {% endfor %}
                                 </tbody>

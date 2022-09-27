@@ -166,59 +166,98 @@ INFO 2022-09-27 12:52:01 __call__ {'remote_address': '127.0.0.1', 'server_hostna
 INFO 2022-09-27 12:53:35 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'POST', 'request_path': '/api/token/', 'request_body': {'username': 'mukul', 'password': 12345}, 'response_body': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDM0ODAxNSwiaWF0IjoxNjY0MjYxNjE1LCJqdGkiOiIyYjJmZDZlNTNhZGE0ZGJlODI0ZTRiZTFiNzZlZTkyZiIsInVzZXJfaWQiOjF9.Q-7cu2ZRlLEKDkYGUKSqv8VdQuR-H6TeqbAGJ9Mrvw0', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY0MjYxOTE1LCJpYXQiOjE2NjQyNjE2MTUsImp0aSI6IjQxNmVjODlkZDQyNzRjOGY4MzM1NjVlOGE2MDA0ODA5IiwidXNlcl9pZCI6MX0.pN248WGNAufgDQ1Kq4xuuM6PlwPg6IVy73z4w3nTm5c'}, 'run_time': 0.45990514755249023}
 INFO 2022-09-27 12:53:55 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log', 'run_time': 0.0}
 INFO 2022-09-27 12:54:30 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/api/books/', 'request_body': {}, 'response_body': [{'id': 1, 'title': 'The Eifel Tower', 'author': 'Mukul', 'description': 'nice book', 'price': 199.99}, {'id': 2, 'title': 'The Dark Night', 'author': 'Nur Mohsin', 'description': 'Horror story', 'price': 199.99}, {'id': 6, 'title': 'Marvelous Six', 'author': 'Khalid Hassan', 'description': 'Comic story', 'price': 99.99}, {'id': 7, 'title': 'The MoonKnight', 'author': 'Khalid Hassan', 'description': 'Marvel Comic story', 'price': 199.99}], 'run_time': 0.00800013542175293}
-INFO 2022-09-27 12:54:57 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log', 'run_time': 0.015619754791259766}
-INFO 2022-09-27 12:55:45 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log', 'run_time': 0.0}
-INFO 2022-09-27 12:56:40 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log', 'run_time': 0.0}
-INFO 2022-09-27 12:57:03 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log', 'run_time': 0.0}
-INFO 2022-09-27 12:57:58 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=2', 'run_time': 0.0069980621337890625}
-INFO 2022-09-27 12:58:07 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=1', 'run_time': 0.006997823715209961}
-INFO 2022-09-27 12:58:31 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=1', 'run_time': 0.008001089096069336}
-INFO 2022-09-27 12:58:35 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=1', 'run_time': 0.01099395751953125}
-INFO 2022-09-27 12:59:14 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=1', 'run_time': 0.00799870491027832}
-INFO 2022-09-27 12:59:19 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=1', 'run_time': 0.012028932571411133}
-INFO 2022-09-27 12:59:39 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=1', 'run_time': 0.0060291290283203125}
-INFO 2022-09-27 13:01:59 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=1', 'run_time': 0.010014772415161133}
-INFO 2022-09-27 13:02:54 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=1', 'run_time': 0.010020017623901367}
-INFO 2022-09-27 13:03:15 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=1', 'run_time': 0.010001182556152344}
-INFO 2022-09-27 13:03:48 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=1', 'run_time': 0.01202845573425293}
-INFO 2022-09-27 13:04:06 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=1', 'run_time': 0.010022878646850586}
-INFO 2022-09-27 13:05:05 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=2', 'run_time': 0.007998943328857422}
-INFO 2022-09-27 13:15:14 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=3', 'run_time': 0.006983041763305664}
-INFO 2022-09-27 13:15:17 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=4', 'run_time': 0.007977962493896484}
-INFO 2022-09-27 13:15:19 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=5', 'run_time': 0.006976604461669922}
-INFO 2022-09-27 13:15:20 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=6', 'run_time': 0.008017301559448242}
-INFO 2022-09-27 13:15:21 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=7', 'run_time': 0.009001016616821289}
-INFO 2022-09-27 13:15:23 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=8', 'run_time': 0.007982254028320312}
-INFO 2022-09-27 13:15:24 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=9', 'run_time': 0.007976770401000977}
-INFO 2022-09-27 13:15:25 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=10', 'run_time': 0.005974292755126953}
-INFO 2022-09-27 13:15:29 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=9', 'run_time': 0.007994890213012695}
-INFO 2022-09-27 13:15:30 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=8', 'run_time': 0.008016824722290039}
-INFO 2022-09-27 13:15:32 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=7', 'run_time': 0.008012533187866211}
-INFO 2022-09-27 13:15:33 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=6', 'run_time': 0.007999181747436523}
-INFO 2022-09-27 13:15:34 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=5', 'run_time': 0.006994962692260742}
-INFO 2022-09-27 13:15:35 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=4', 'run_time': 0.0070154666900634766}
-INFO 2022-09-27 13:15:36 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=3', 'run_time': 0.00799560546875}
-INFO 2022-09-27 13:15:37 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=2', 'run_time': 0.006977081298828125}
-INFO 2022-09-27 13:15:38 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=1', 'run_time': 0.00700068473815918}
-INFO 2022-09-27 13:16:36 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/api/books/', 'request_body': {}, 'response_body': {'detail': 'Given token not valid for any token type', 'code': 'token_not_valid', 'messages': [{'token_class': 'AccessToken', 'token_type': 'access', 'message': 'Token is invalid or expired'}]}, 'run_time': 0.0044403076171875}
-WARNING 2022-09-27 13:16:36 log_response Unauthorized: /api/books/
-INFO 2022-09-27 13:16:47 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'POST', 'request_path': '/api/token/', 'request_body': {'username': 'mukul', 'password': 12345}, 'response_body': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NDM0OTQwNywiaWF0IjoxNjY0MjYzMDA3LCJqdGkiOiI4MzdjZDFiOGY0ZWE0NmE0OGMxNDY4ZTI2ZDJmYmMzZCIsInVzZXJfaWQiOjF9.NGuJshXvAWGluI7SWleRyCb68XerW6KJzHi1XUnjZcM', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY0MjYzMzA3LCJpYXQiOjE2NjQyNjMwMDcsImp0aSI6Ijc0ZmEzMjI4ZmJjZTQ5NDQ4NWEzYWY0Yzk1ZDJmYzhkIiwidXNlcl9pZCI6MX0.tndDFK5Z4VvG57ElxTgTbl6U0NOzJ4BVNGf2xna3698'}, 'run_time': 0.38198375701904297}
-INFO 2022-09-27 13:17:05 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/api/books/', 'request_body': {}, 'response_body': [{'id': 1, 'title': 'The Eifel Tower', 'author': 'Mukul', 'description': 'nice book', 'price': 199.99}, {'id': 2, 'title': 'The Dark Night', 'author': 'Nur Mohsin', 'description': 'Horror story', 'price': 199.99}, {'id': 6, 'title': 'Marvelous Six', 'author': 'Khalid Hassan', 'description': 'Comic story', 'price': 99.99}, {'id': 7, 'title': 'The MoonKnight', 'author': 'Khalid Hassan', 'description': 'Marvel Comic story', 'price': 199.99}], 'run_time': 0.007817745208740234}
-INFO 2022-09-27 13:17:22 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/', 'run_time': 0.09600448608398438}
-INFO 2022-09-27 13:17:25 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log', 'run_time': 0.008992195129394531}
-INFO 2022-09-27 13:19:02 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log', 'run_time': 0.00702357292175293}
-INFO 2022-09-27 13:19:37 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=2', 'run_time': 0.0070002079010009766}
-INFO 2022-09-27 13:19:39 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=3', 'run_time': 0.01399993896484375}
-INFO 2022-09-27 13:19:51 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=4', 'run_time': 0.010977506637573242}
-INFO 2022-09-27 13:19:56 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=5', 'run_time': 0.008997917175292969}
-INFO 2022-09-27 13:20:15 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=6', 'run_time': 0.012028217315673828}
-INFO 2022-09-27 13:20:26 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=5', 'run_time': 0.0069959163665771484}
-INFO 2022-09-27 13:20:43 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=4', 'run_time': 0.01000213623046875}
-INFO 2022-09-27 13:20:56 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/', 'run_time': 0.10801005363464355}
-INFO 2022-09-27 13:21:06 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log', 'run_time': 0.009002923965454102}
-INFO 2022-09-27 13:21:12 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/api/books/', 'request_body': {}, 'response_body': [{'id': 1, 'title': 'The Eifel Tower', 'author': 'Mukul', 'description': 'nice book', 'price': 199.99}, {'id': 2, 'title': 'The Dark Night', 'author': 'Nur Mohsin', 'description': 'Horror story', 'price': 199.99}, {'id': 6, 'title': 'Marvelous Six', 'author': 'Khalid Hassan', 'description': 'Comic story', 'price': 99.99}, {'id': 7, 'title': 'The MoonKnight', 'author': 'Khalid Hassan', 'description': 'Marvel Comic story', 'price': 199.99}], 'run_time': 0.005997180938720703}
-INFO 2022-09-27 13:21:18 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log', 'run_time': 0.007020473480224609}
-INFO 2022-09-27 13:22:40 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/', 'run_time': 0.09596562385559082}
-INFO 2022-09-27 13:23:22 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log', 'run_time': 0.009001016616821289}
-INFO 2022-09-27 13:25:10 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/', 'run_time': 0.09299731254577637}
-INFO 2022-09-27 13:26:34 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log', 'run_time': 0.009971141815185547}
+INFO 2022-09-27 17:15:57 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/', 'run_time': 0.07401680946350098}
+INFO 2022-09-27 17:16:03 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log', 'run_time': 0.008993864059448242}
+INFO 2022-09-27 17:16:17 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug-filter/2022-09-27.log?type=3&page=1', 'run_time': 0.00699925422668457}
+INFO 2022-09-27 17:16:25 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/', 'run_time': 0.07901144027709961}
+INFO 2022-09-27 17:16:27 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log', 'run_time': 0.00999903678894043}
+INFO 2022-09-27 17:16:40 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug-filter/2022-09-27.log?type=3&page=1', 'run_time': 0.003998994827270508}
+INFO 2022-09-27 17:17:43 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug-filter/2022-09-27.log?type=2&page=1', 'run_time': 0.0069997310638427734}
+INFO 2022-09-27 17:17:44 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=2', 'run_time': 0.008974552154541016}
+INFO 2022-09-27 17:17:50 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=3', 'run_time': 0.0070154666900634766}
+INFO 2022-09-27 17:17:54 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug-filter/2022-09-27.log?type=3&page=3', 'run_time': 0.004026174545288086}
+INFO 2022-09-27 17:17:57 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug-filter/2022-09-27.log?type=2&page=1', 'run_time': 0.00897526741027832}
+INFO 2022-09-27 17:18:32 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug-filter/2022-09-27.log?type=2&page=1', 'run_time': 0.010003089904785156}
+INFO 2022-09-27 17:18:34 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=2', 'run_time': 0.01300048828125}
+INFO 2022-09-27 17:18:43 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug-filter/2022-09-27.log?type=3&page=2', 'run_time': 0.005997419357299805}
+INFO 2022-09-27 17:19:38 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug-filter/2022-09-27.log?type=3&page=2', 'run_time': 0.012017965316772461}
+INFO 2022-09-27 17:19:44 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug-filter/2022-09-27.log?type=1', 'run_time': 0.0029747486114501953}
+INFO 2022-09-27 17:19:47 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug-filter/2022-09-27.log?type=2', 'run_time': 0.01099848747253418}
+INFO 2022-09-27 17:19:57 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=2', 'run_time': 0.00899815559387207}
+INFO 2022-09-27 17:20:12 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug-filter/2022-09-27.log?type=2', 'run_time': 0.008995294570922852}
+INFO 2022-09-27 17:34:44 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug-filter/2022-09-27.log?type=2', 'run_time': 0.008002042770385742}
+INFO 2022-09-27 17:35:22 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=2', 'run_time': 0.00899362564086914}
+INFO 2022-09-27 17:35:26 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=1', 'run_time': 0.010004520416259766}
+INFO 2022-09-27 17:37:41 trigger_reload C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\app_logviewer\views.py changed, reloading.
+INFO 2022-09-27 17:37:42 run_with_reloader Watching for file changes with StatReloader
+INFO 2022-09-27 17:37:44 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/', 'run_time': 0.1190187931060791}
+INFO 2022-09-27 17:37:47 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log', 'run_time': 0.011014938354492188}
+ERROR 2022-09-27 17:37:50 process_exception Unhandled Exception: logger/log-filter.html
+Traceback (most recent call last):
+  File "C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\books\middleware\__init__.py", line 50, in process_exception
+    raise exception
+  File "C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\app_logviewer\views.py", line 132, in log_filter
+    return render(request,'logger/log-filter.html',{'logs':logs_per_page, 'file':file, 'total_pages':total_pages})
+  File "C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: logger/log-filter.html
+ERROR 2022-09-27 17:37:50 log_response Internal Server Error: /logs/debug-filter/2022-09-27.log
+Traceback (most recent call last):
+  File "C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\books\middleware\__init__.py", line 38, in __call__
+    if response and response["content-type"] == "application/json":
+TypeError: 'TemplateDoesNotExist' object is not subscriptable
+INFO 2022-09-27 17:38:43 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug-filter/2022-09-27.log?type=2', 'run_time': 0.015000581741333008}
+ERROR 2022-09-27 17:38:46 process_exception Unhandled Exception: must be str, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\books\middleware\__init__.py", line 50, in process_exception
+    raise exception
+  File "C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\app_logviewer\views.py", line 120, in log_filter
+    if line.find(type) != -1:
+TypeError: must be str, not NoneType
+ERROR 2022-09-27 17:38:47 log_response Internal Server Error: /logs/debug-filter/2022-09-27.log
+Traceback (most recent call last):
+  File "C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\books\middleware\__init__.py", line 38, in __call__
+    if response and response["content-type"] == "application/json":
+TypeError: 'TypeError' object is not subscriptable
+INFO 2022-09-27 17:39:16 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug-filter/2022-09-27.log?type=1', 'run_time': 0.00799703598022461}
+INFO 2022-09-27 17:39:20 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug-filter/2022-09-27.log?type=2', 'run_time': 0.007996797561645508}
+INFO 2022-09-27 17:41:40 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/', 'run_time': 0.11701035499572754}
+INFO 2022-09-27 17:41:43 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log', 'run_time': 0.010982990264892578}
+INFO 2022-09-27 17:41:46 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=2', 'run_time': 0.007974624633789062}
+INFO 2022-09-27 17:41:49 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=1', 'run_time': 0.008981704711914062}
+INFO 2022-09-27 17:42:09 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=2', 'run_time': 0.007975339889526367}
+INFO 2022-09-27 17:42:11 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=3', 'run_time': 0.012996912002563477}
+INFO 2022-09-27 17:42:16 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=2', 'run_time': 0.008012771606445312}
+INFO 2022-09-27 17:46:08 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/', 'run_time': 0.09100818634033203}
+INFO 2022-09-27 17:46:11 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log', 'run_time': 0.008979320526123047}
+INFO 2022-09-27 17:47:03 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=2', 'run_time': 0.014000415802001953}
+INFO 2022-09-27 17:47:09 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=3', 'run_time': 0.008001089096069336}
+INFO 2022-09-27 17:52:09 trigger_reload C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\app_logviewer\views.py changed, reloading.
+INFO 2022-09-27 17:52:11 run_with_reloader Watching for file changes with StatReloader
+INFO 2022-09-27 17:52:14 trigger_reload C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\app_logviewer\urls.py changed, reloading.
+INFO 2022-09-27 17:53:30 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/', 'run_time': 0.0950009822845459}
+INFO 2022-09-27 17:53:36 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log', 'run_time': 0.007997274398803711}
+INFO 2022-09-27 17:53:46 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=2', 'run_time': 0.008992910385131836}
+INFO 2022-09-27 17:53:49 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=1', 'run_time': 0.007995128631591797}
+INFO 2022-09-27 18:02:09 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=1', 'run_time': 0.01102447509765625}
+INFO 2022-09-27 18:02:18 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=1', 'run_time': 0.010001182556152344}
+INFO 2022-09-27 18:04:00 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=1', 'run_time': 0.010994672775268555}
+INFO 2022-09-27 18:04:13 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=2', 'run_time': 0.010020971298217773}
+INFO 2022-09-27 18:05:04 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=3', 'run_time': 0.008987188339233398}
+INFO 2022-09-27 18:05:56 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log?page=4', 'run_time': 0.010017633438110352}
+INFO 2022-09-27 18:10:42 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/', 'run_time': 0.10399460792541504}
+INFO 2022-09-27 18:10:46 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log', 'run_time': 0.007985353469848633}
+INFO 2022-09-27 18:11:33 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log', 'run_time': 0.011995077133178711}
+INFO 2022-09-27 18:12:11 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/', 'run_time': 0.1090087890625}

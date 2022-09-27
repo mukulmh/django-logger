@@ -94,5 +94,6 @@ def logs(request, file):
     logs.reverse()
     log_paginator = Paginator(logs, 20)
     page_number = request.GET.get('page')
+    total_pages = log_paginator.num_pages
     logs_per_page = log_paginator.get_page(page_number)
-    return render(request,'logger/logs.html',{'logs':logs_per_page,'file':file})
+    return render(request,'logger/logs.html',{'logs':logs_per_page, 'file':file, 'total_pages':total_pages})
