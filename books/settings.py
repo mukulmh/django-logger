@@ -142,6 +142,7 @@ REST_FRAMEWORK = {
 today = str(date.today())
 # LOGFILE_SIZE = 5 * 1024
 # LOGFILE_COUNT = 10
+Path("logs").mkdir(parents=True, exist_ok=True)
 
 LOGGING = {
     'version': 1,

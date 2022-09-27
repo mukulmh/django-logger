@@ -1,0 +1,30 @@
+INFO 2022-09-27 11:00:24 run_with_reloader Watching for file changes with StatReloader
+INFO 2022-09-27 11:01:00 trigger_reload C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\app_logviewer\views.py changed, reloading.
+INFO 2022-09-27 11:01:02 run_with_reloader Watching for file changes with StatReloader
+INFO 2022-09-27 11:01:18 trigger_reload C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\app_logviewer\views.py changed, reloading.
+INFO 2022-09-27 11:01:20 run_with_reloader Watching for file changes with StatReloader
+INFO 2022-09-27 11:01:33 trigger_reload C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\app_logviewer\views.py changed, reloading.
+INFO 2022-09-27 11:01:36 run_with_reloader Watching for file changes with StatReloader
+INFO 2022-09-27 11:01:39 trigger_reload C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\app_logviewer\views.py changed, reloading.
+INFO 2022-09-27 11:01:41 run_with_reloader Watching for file changes with StatReloader
+INFO 2022-09-27 11:01:43 trigger_reload C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\app_logviewer\views.py changed, reloading.
+INFO 2022-09-27 11:01:46 run_with_reloader Watching for file changes with StatReloader
+INFO 2022-09-27 11:01:51 trigger_reload C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\app_logviewer\views.py changed, reloading.
+INFO 2022-09-27 11:01:54 run_with_reloader Watching for file changes with StatReloader
+INFO 2022-09-27 11:01:56 trigger_reload C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\app_logviewer\views.py changed, reloading.
+INFO 2022-09-27 11:01:57 run_with_reloader Watching for file changes with StatReloader
+INFO 2022-09-27 11:02:02 trigger_reload C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\app_logviewer\views.py changed, reloading.
+INFO 2022-09-27 11:02:04 run_with_reloader Watching for file changes with StatReloader
+INFO 2022-09-27 11:02:36 trigger_reload C:\Users\Mehedy H Mukul\Desktop\Web Dev\SSL Wireless Intern\Django\REST API\app_logviewer\views.py changed, reloading.
+INFO 2022-09-27 11:02:38 run_with_reloader Watching for file changes with StatReloader
+INFO 2022-09-27 11:04:54 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/', 'run_time': 0.9100229740142822}
+WARNING 2022-09-27 11:04:54 log_response Not Found: /
+INFO 2022-09-27 11:04:55 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/favicon.ico', 'run_time': 0.009002208709716797}
+WARNING 2022-09-27 11:04:55 log_response Not Found: /favicon.ico
+INFO 2022-09-27 11:05:01 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/', 'run_time': 0.13399839401245117}
+INFO 2022-09-27 11:05:34 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/', 'run_time': 0.016000986099243164}
+INFO 2022-09-27 11:05:38 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/favicon.ico', 'run_time': 0.010003805160522461}
+WARNING 2022-09-27 11:05:38 log_response Not Found: /favicon.ico
+INFO 2022-09-27 11:05:42 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log', 'run_time': 0.006998777389526367}
+INFO 2022-09-27 11:06:05 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/', 'run_time': 0.01598501205444336}
+INFO 2022-09-27 11:06:22 __call__ {'remote_address': '127.0.0.1', 'server_hostname': 'Mukul', 'request_method': 'GET', 'request_path': '/logs/debug/2022-09-27.log', 'run_time': 0.006998538970947266}

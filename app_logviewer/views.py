@@ -11,7 +11,6 @@ import re
 # logs
 def dashboard(request):
     files = os.listdir('logs')
-    files=[x.split('.')[0] for x in files]
     files.reverse()
     logs = []
     for file in files:
@@ -23,7 +22,7 @@ def dashboard(request):
         warning_count = 0
         critical_count = 0
 
-        with open('logs/'+file+'.log') as fp:
+        with open('logs/'+file) as fp:
             all_logs = []
             debug_logs = []
             info_logs = []
@@ -50,8 +49,9 @@ def dashboard(request):
                     if line.find('CRITICAL') != -1:
                         critical_count += 1
                         critical_logs.append(line)
-
-        log_data['date'] = file
+        log_data['file'] = file
+        file = file.split('.', 1)
+        log_data['date'] = file[0]
         log_data['all_count'] = all_count
         log_data['info_count'] = info_count
         log_data['debug_count'] = debug_count
@@ -79,7 +79,7 @@ def dashboard(request):
 # logs
 def logs(request, file):
     logs=[]
-    with open('logs/'+file+'.log') as fp:
+    with open('logs/'+file) as fp:
         for line in fp:
             log_data = {}
             if re.findall(r'DEBUG|INFO|ERROR|WARNING|CRITICAL',line):
